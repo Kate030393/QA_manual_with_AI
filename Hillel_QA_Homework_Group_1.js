@@ -1,4 +1,10 @@
-/*1. Open any regular webpage.
+/*Browsers can detect when a user switches tabs, minimizes the window, or switches to another application 
+using events such as visibilitychange, blur, and focus.
+As a QA engineer, you can observe these events in Chrome DevTools and check Network requests to understand how the application reacts.
+The consequences, such as exam termination, are determined by the developer’s business logic 
+and may involve frontend actions, API requests, and backend validation.
+
+1. Open any regular webpage.
 
 2. Press F12 or Ctrl + Shift + J.
 
