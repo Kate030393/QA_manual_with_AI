@@ -30,4 +30,16 @@ window.addEventListener("focus", () => {
 
 - Minimize Chrome: Minimize the browser window using the minimize button in the title bar, then restore it.
 
-- Switch to another application*/
+- Switch to another application
+
+5. Reaction on the visibility change event: */
+
+document.addEventListener("visibilitychange", () => {
+  if (document.hidden) {
+    finishExam();
+  }
+});
+
+function finishExam() {
+  console.log("The exam has been terminated");
+}
