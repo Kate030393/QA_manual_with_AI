@@ -1,9 +1,0 @@
-test case 1 
-Test case title: some title
-Steps to reproduce: 1, 2, 3
-
-test case 2
-Test case title: some title2
-
-test case 3
-empty
