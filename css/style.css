@@ -1,0 +1,166 @@
+/* ===== Загальні стилі ===== */
+body {
+    background-color: #fdf0f4;
+    color: #4a3b40;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 17px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    background-color: #ffffff;
+    width: 900px;
+    margin: 0 auto;
+    padding: 20px 40px 30px 40px;
+    border-left: 3px solid #e8a9bd;
+    border-right: 3px solid #e8a9bd;
+}
+
+/* ===== Заголовки ===== */
+h1 {
+    color: #c2185b;
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #a0527a;
+    font-size: 24px;
+    border-bottom: 2px solid #f3c6d4;
+    padding-bottom: 4px;
+    margin-top: 30px;
+}
+
+/* ===== Меню ===== */
+.menu {
+    background-color: #f8d7e3;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+
+.menu a {
+    color: #8a2650;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 15px;
+}
+
+.menu a:hover {
+    background-color: #c2185b;
+    color: #ffffff;
+}
+
+/* ===== Посилання ===== */
+a {
+    color: #c2185b;
+}
+
+a:hover {
+    color: #7b1040;
+}
+
+/* ===== Лінії ===== */
+hr {
+    border: 0;
+    border-top: 2px dotted #e8a9bd;
+    margin: 20px 0;
+}
+
+/* ===== Зображення ===== */
+.main-photo-box {
+    text-align: center;
+}
+
+#main-photo {
+    width: 400px;
+    border: 6px solid #f3c6d4;
+    border-radius: 10px;
+    box-shadow: 4px 4px 12px #cfa6b3;
+}
+
+.photo {
+    width: 320px;
+    border: 4px solid #f3c6d4;
+    border-radius: 8px;
+}
+
+.photo:hover {
+    border-color: #c2185b;
+}
+
+.photo-wide {
+    width: 480px;
+}
+
+/* ===== Таблиці ===== */
+.info-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.info-table th,
+.info-table td {
+    border: 1px solid #e8a9bd;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+.info-table th {
+    background-color: #fbe3ec;
+    color: #8a2650;
+    width: 35%;
+}
+
+.info-table tr:hover td {
+    background-color: #fff4f8;
+}
+
+/* ===== Списки ===== */
+.list {
+    padding-left: 30px;
+}
+
+.list li {
+    margin-bottom: 6px;
+}
+
+#awards-list li {
+    color: #8a2650;
+}
+
+/* ===== Галерея ===== */
+#gallery-table {
+    border-collapse: separate;
+    border-spacing: 15px;
+    margin: 0 auto;
+}
+
+#gallery-table td {
+    text-align: center;
+    vertical-align: top;
+}
+
+.caption {
+    color: #a0527a;
+    font-size: 15px;
+}
+
+/* ===== Текст ===== */
+.intro {
+    text-align: justify;
+}
+
+.footer-note {
+    color: #a0527a;
+    text-align: center;
+    font-size: 15px;
+}
+
+.back-link {
+    text-align: center;
+}
